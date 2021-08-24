@@ -69,6 +69,7 @@ const renderCountryInfo = country => {
         <h3 class="country-time">Timezone: ${country.timezones[0]}</h3>
         <h3 class="country-currency">Currency: ${country.currencies[0].name} (${country.currencies[0].code})</h3>
         <h3>Area: ${country.area}</h3class=>
+        <h3>Population: ${country.population}</h3>
         <h3>Region: ${country.region}</h3>
         <h3>Cioc: ${country.cioc}</h3>
         <h3>Numeric-Code: ${country.numericCode}</h3>
